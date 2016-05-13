@@ -17,6 +17,16 @@
   }
 }*/
 
+/*Google translate button*/
+.goog-te-gadget-simple{
+  border: 0 0 0 0 !important;
+  height: 60px;
+  font-family: 'Roboto';
+  font-size: 1rem;
+  margin-top: 2px;
+  padding-top: 0px;
+}
+
 .waves-effect.waves-indigo .waves-ripple{
   background-color: rgba(63,81,181,0.65);
 }
