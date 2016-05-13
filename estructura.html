@@ -2,7 +2,7 @@
 <html lang="es_VE" itemscope itemtype="http://schema.org/Person">
 <head>
   <meta charset="UTF-8">
-  <title>Materializecss Snippets</title>
+  <title>Materializecss Snippets - </title>
   <meta name="description" content="Una colección de Snippets para Sublime Text que te facilitara el trabajo trabajo con Materializecss y te ayudaran a ahorrar tiempo para tomarte un café">
   <meta name="robots" content="index, follow">
   <meta name="author" content="Lenin Peña">
@@ -45,6 +45,14 @@
       <div class="nav-wrapper">
         <div class="container">
           <a href="#" data-activates="slide-out" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a class="dropdown-button" href="#!" data-activates="compartir">Compartir<i class="material-icons right">share</i></a></li>
+          </ul>
+          <ul id="compartir" class="dropdown-content">
+            <li><a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http%3A//leninalbertolp.github.io/materializecss-snippets/', 'name', 'width=600,height=400')" class="indigo-text">Facebook</a></li>
+            <li><a href="#" onclick="window.open('https://twitter.com/intent/tweet?text=Materializecss%20Snippets%20http%3A%2F%2Fleninalbertolp.github.io%2Fmaterializecss-snippets%2F', 'name', 'width=600,height=400')" class="indigo-text">Twitter</a></li>
+            <li><a href="#" onclick="window.open('https://plus.google.com/share?url=http%3A//leninalbertolp.github.io/materializecss-snippets/', 'name', 'width=600,height=400')" class="indigo-text">Google+</a></li>
+          </ul>
           <ul class="side-nav" id="slide-out">
             <li><a href="index.html" class="waves-effect waves-indigo">Inicio</a></li>
             <li><a href="introduccion.html" class="waves-effect waves-indigo">Introducción</a></li>
@@ -67,7 +75,7 @@
                   <div class="collapsible-body">
                     <ul>
                       <li><a href="badges.html">Badges</a></li>
-                      <li><a href="breadcrumbs.html">Breadcrumbs</a></li>
+                      <li><a href="breadcrumbs">Breadcrumbs</a></li>
                       <li><a href="buttons.html">Buttons</a></li>
                       <li><a href="cards.html">Cards</a></li>
                       <li><a href="chips.html">Chips</a></li>
@@ -75,7 +83,7 @@
                       <li><a href="footer.html">Footer</a></li>
                       <li><a href="forms.html">Forms</a></li>
                       <li><a href="icons.html">Icons</a></li>
-                      <li><a href="nabvar.html">Navbar</a></li>
+                      <li><a href="navbar.html">Navbar</a></li>
                       <li><a href="pagination.html">pagination</a></li>
                       <li><a href="preloader.html">Preloader</a></li>
                     </ul>
@@ -129,28 +137,48 @@
     </nav>
   </header>
   <main>
-    <section>
-      <div class="home indigo valign-wrapper">
-        <div class="container">
-          <div class="row">
-            <div class="col s12">
-              <h1 class="white-text center-align">Materializecss &lt;Snippets/&gt;</h1>
-              <p class="flow-text white-text center-align">Una colección de Snippets para <strong>Sublime Text</strong> que te facilitara el trabajo y te ayudaran a ahorrar tiempo para tomarte un café <i class="fa fa-coffee" aria-hidden="true"></i></p>
-              <div class="center"><a href="introduccion.html" class="waves-effect waves-light btn-large pink accent-2">Introducción</a></div>
-              <p class="grey-text text-lighten-1 center-align">Beta Release 1.0 by <a href="http://www.leninalbertop.com.ve" target="_blank" class="white-text">Lenin Peña</a></p>
-            </div>
+    
+  </main>
+  <footer class="page-footer indigo">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6 l6">
+          <h5 class="white-text">Invítame un café</h5>
+          <p class="grey-text text-lighten-4">Si considera que este trabajo le a sido útil, y que en realidad merece una donación para continuar su desarrollo, yo te estaría agradecido por tu contribución.</p>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="P6WLPURZS94TE">
+            <button class="btn-large waves-effect waves-light pink accent-2" type="submit" name="action" alt="PayPal - The safer, easier way to pay online!">Donar <i class="fa fa-paypal right" aria-hidden="true"></i>
+            </button>
+          </form>
+        </div>
+        <div class="col s12 m6 l6">
+          <h5 class="white-text">¿No tienes para el café?</h5>
+          <p class="grey-text text-lighten-4">Eso no importa, puedes contribuir compartiendo el proyecto con tus colegas y en tus redes sociales, o si quieres unirte al proyecto seras bienvenido.</p>
+          <div class="redes-sociales">
+            <a href="#"  onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http%3A//leninalbertolp.github.io/materializecss-snippets/', 'name', 'width=600,height=400')" class="waves-effect waves-light btn pink accent-2 left"><i class="fa fa-facebook-official fa-2x white-text" aria-hidden="true"></i>Facebook</a>
+
+            <a href="#" onclick="window.open('https://twitter.com/intent/tweet?text=Materializecss%20Snippets%20http%3A%2F%2Fleninalbertolp.github.io%2Fmaterializecss-snippets%2F', 'name', 'width=600,height=400')" class="waves-effect waves-light btn pink accent-2 left"><i class="fa fa-twitter fa-2x white-text" aria-hidden="true"></i>Twitter</a>
+
+            <a href="#" onclick="window.open('https://plus.google.com/share?url=http%3A//leninalbertolp.github.io/materializecss-snippets/', 'name', 'width=600,height=400')" class="waves-effect waves-light btn pink accent-2 left"><i class="fa fa-google-plus fa-2x white-text" aria-hidden="true"></i>Google+</a>
           </div>
         </div>
       </div>
-    </section> 
-  </main>
-
+    </div>
+    <div class="footer-copyright indigo darken-1">
+      <div class="container">
+        © 2016 Materializecss Snippets
+        <a class="grey-text text-lighten-4 right" href="http:www.leninalbertop.com.ve">Hecho con <i class="fa fa-heart red-text" aria-hidden="true"></i> por Lenin Peña</a>
+      </div>
+    </div>
+  </footer>
   <script src="js/jquery.min.js"></script>
   <script src="js/materialize.min.js"></script>
   <script>
     $(document).ready(function(){
       $(".button-collapse").sideNav();
+      $(".dropdown-button").dropdown();
     });
   </script>
 </body>
-</html>
+</html>  
