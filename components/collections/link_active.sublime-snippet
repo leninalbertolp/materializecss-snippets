@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<div class="collection">
+	<a href="#" class="collection-item active">Alvin</a>
+	<a href="#" class="collection-item">Alvin</a>
+	<a href="#" class="collection-item">Alvin</a>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mz-collections</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

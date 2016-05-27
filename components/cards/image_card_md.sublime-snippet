@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+<div class="card medium">
+	<div class="card-image">
+		<img src="${1:}" alt="${2:}"/>
+		<span class="card-title">${3:Card Title}</span>
+	</div>
+	<div class="card-content">
+		<p>I am a very simple card. I am good at containing small bits of information.I am convenient because I require little markup to use effectively.</p>
+	</div>
+	<div class="card-action">
+		<a href="#">This is a link</a>
+	</div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mz-cards</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

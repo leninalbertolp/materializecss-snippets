@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+<div class="container">
+  <div class="row">
+    <div class="col s12 m4 l6">
+      ${1:your content}
+    </div>
+  </div>
+</div>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>mz-template</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<a href="#" class="btn-large disabled">button</a>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mz-buttons</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
