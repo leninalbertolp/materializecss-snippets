@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+<div class="parallax-container">
+  <div class="parallax"><img src="https://static.pexels.com/photos/34676/pexels-photo-large.jpg"></div>
+</div>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>mz-parallax</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>
