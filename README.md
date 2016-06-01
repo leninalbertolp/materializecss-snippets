@@ -19,9 +19,11 @@ There is only one way to install, !for the moments!
 ##How to use.
 
 To invoke snippets must type **mz-** more the element name. Example: **mz-table**.
+
 ![](http://i.imgur.com/yXBfI25.jpg)
 
 To have the drop-down menu showing snippets more content like the following image, you must install the plugin [SublimeCodeIntel from PackageControl](https://packagecontrol.io/packages/SublimeCodeIntel), what contratio will have to manually search each snnipet.
+
 ![](http://i.imgur.com/tVGerJc.gif)
 
 ##Table of Contents
