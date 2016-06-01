@@ -11,6 +11,7 @@ For now, you can only install this reposiorio downloading snippets, I'm working 
 ##Intallation.
 
 There is only one way to install, !for the moments!
+
 1- Download this repository, unpack the .zip and rename the folder materializecss-snippets-master to materializecss-snippets
 
 2- Open Sublime Text and go to Preferences> Browse Packages ...> User, and move the materializecss-Snippets folder to this route, that's all, enjoy.
