@@ -1,4 +1,5 @@
 # Materializecss Snippets for Sublime Text 2&3
+[![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg?maxAge=2592000)](https://github.com/leninalbertolp/materializecss-snippets)
 
 first of all, Sorry for my horrible English, is not my native language. :flushed:
 
