@@ -8,7 +8,7 @@ first of all, Sorry for my horrible English, is not my native language. :flushed
 
 Repository with snnipets of the framework Materilizecss to Sublime Text 2&3, which will help you streamline your workflow, and make time for a cup of coffee :coffee:
 
-For now, you can only install this reposiorio downloading snippets, I'm working to take it as a plugin and upload to Control Package.
+For now, you can only install this reposiorio downloading snippets, I'm working to take it as a plugin and upload to Package Control.
 
 ##Intallation.
 
