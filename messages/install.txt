@@ -1,0 +1,27 @@
+==============================================================
+         MATERIALIZECSS SNIPPETS FOR SUBLIME TEXT 2/3            
+==============================================================
+   Thanks for installing the plugin Materializecss Snippets      
+--------------------------------------------------------------
+
+  This plugin contains a good and understandable amount of snnipets
+  of materializecss, which will help you to optimize your workflow, 
+  and make time for a cup of coffee. :)
+
+  NOTA:
+---------------------------------------------------------------
+  To maximize Materializecss Snippets, recommend you install 
+  SublimeCodeIntel, plugins installed with this type 
+  should only mz-navbar and this will show all snippets available 
+  for mz-navbar and so each component.
+
+  Donwload SublimeCodeIntel:
+  https://packagecontrol.io/packages/SublimeCodeIntel
+
+  I would appreciate the feedback you can give me, in the same way, 
+  we invite you to report any error present when using this plugins.
+
+  Issues | Pull resquests | Fork | Star | Download zip file
+  https://github.com/leninalbertolp/materializecss-snippets
+
+  Fallow me on Twitter @leninalbertop

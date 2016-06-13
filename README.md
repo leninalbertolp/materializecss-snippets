@@ -1,5 +1,6 @@
 # Materializecss Snippets for Sublime Text 2&3
-[![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg?maxAge=2592000)](https://github.com/leninalbertolp/materializecss-snippets)
+![GitHub release](https://img.shields.io/badge/release-1.0.0-green.svg) ![GitHub tag](https://img.shields.io/badge/tag-snippet,%20css,%20materializecss-blue.svg)
+
 
 first of all, Sorry for my horrible English, is not my native language. :flushed:
 
@@ -11,7 +12,15 @@ For now, you can only install this reposiorio downloading snippets, I'm working 
 
 ##Intallation.
 
-There is only one way to install, !for the moments!
+###PackageControl Installation (coming soon).
+
+You can install this awesome plugin through the [Package Control](https://packagecontrol.io/installation).
+
+1. Press <kbd>cmd/ctrl</kbd> + <kbd>shift</kbd> + <kbd>p</kbd> to open the command palette.
+
+2. Type *"install package"* and press enter. Then search for *"Materializecss snippets"*
+
+###Manual Installation
 
 1- Download this repository, unpack the .zip and rename the folder materializecss-snippets-master to materializecss-snippets
 
