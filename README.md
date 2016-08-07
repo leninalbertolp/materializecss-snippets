@@ -12,7 +12,7 @@ For now, you can only install this reposiorio downloading snippets, I'm working 
 
 ##Intallation.
 
-###PackageControl Installation (coming soon).
+###PackageControl Installation (Not available, sorry there is already a similar plugin Package Control).
 
 You can install this awesome plugin through the [Package Control](https://packagecontrol.io/installation).
 
@@ -22,9 +22,9 @@ You can install this awesome plugin through the [Package Control](https://packag
 
 ###Manual Installation
 
-1- Download this repository, unpack the .zip and rename the folder materializecss-snippets-master to materializecss-snippets
+1. Download this repository, unpack the .zip and rename the folder materializecss-snippets-master to materializecss-snippets
 
-2- Open Sublime Text and go to Preferences> Browse Packages ...> User, and move the materializecss-Snippets folder to this route, that's all, enjoy.
+2. Open Sublime Text and go to Preferences> Browse Packages ...> User, and move the materializecss-Snippets folder to this route, that's all, enjoy.
 
 ##How to use.
 
