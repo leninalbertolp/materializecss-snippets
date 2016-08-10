@@ -6,7 +6,7 @@ V-1.0.1 (August 2016/09)
 - Added New Snippet for Horizontal Card
 - Added New Snippet for Carousel
 - Added New Snippet for Sidenav
-- removed files for requesting addition to Control Package
+- removed files for requesting addition to Package Control
 
 ##Introduction.
 first of all, Sorry for my horrible English, is not my native language. :flushed:
