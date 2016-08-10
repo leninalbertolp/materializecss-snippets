@@ -1,10 +1,15 @@
 # Materializecss Snippets for Sublime Text 2&3
-![GitHub release](https://img.shields.io/badge/release-1.0.0-green.svg) ![GitHub tag](https://img.shields.io/badge/tag-snippet,%20css,%20materializecss-blue.svg)
-
-
-first of all, Sorry for my horrible English, is not my native language. :flushed:
+![GitHub release](https://img.shields.io/badge/release-1.0.1-green.svg) [![GitHub forks](https://img.shields.io/github/forks/leninalbertolp/materializecss-snippets.svg)](https://github.com/leninalbertolp/materializecss-snippets/network) [![GitHub stars](https://img.shields.io/github/stars/leninalbertolp/materializecss-snippets.svg)](https://github.com/leninalbertolp/materializecss-snippets/stargazers) [![GitHub issues](https://img.shields.io/github/issues/leninalbertolp/materializecss-snippets.svg)](https://github.com/leninalbertolp/materializecss-snippets/issues) [![Twitter](https://img.shields.io/twitter/url/https/github.com/leninalbertolp/materializecss-snippets.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=%5Bobject%20Object%5D)
+##Changelog
+V-1.0.1 (August 2016/09)
+- Updated CDN Links to 0.97.7
+- Added New Snippet for Horizontal Card
+- Added New Snippet for Carousel
+- added new snippet for sidenav
+- removed files for requesting addition to Control Package
 
 ##Introduction.
+first of all, Sorry for my horrible English, is not my native language. :flushed:
 
 Repository with snnipets of the framework Materilizecss to Sublime Text 2&3, which will help you streamline your workflow, and make time for a cup of coffee :coffee:
 
@@ -12,7 +17,7 @@ For now, you can only install this reposiorio downloading snippets, I'm working 
 
 ##Intallation.
 
-###PackageControl Installation (Not available, sorry there is already a similar plugin Package Control).
+###PackageControl Installation (Not available, sorry there is already a similar plugin Package Control). :cry:
 
 You can install this awesome plugin through the [Package Control](https://packagecontrol.io/installation).
 
@@ -148,7 +153,8 @@ Remember to use **mz-** more the name of the element to invoke snippets.
 | Snippet | Snippet Content | Description |
 |---------|-----------------|-------------|
 | mz-cards | basic_card | Basic Card|
-| mz-cards | panel_card | Basic Card|
+| mz-cards | panel_card | Panel Card|
+| mz-cards | horizontal_card | Horinzontal Card|
 | mz-cards | image_card | Image Card|
 | mz-cards | image_card_lg | Large Image Card|
 | mz-cards | image_card_md | Medium Image Card|
@@ -234,6 +240,13 @@ Remember to use **mz-** more the name of the element to invoke snippets.
 | mz-preloader | linear_indeterminate | Linear Indeterminate|
 
 ##javascript
+###-- carousel
+| Snippet | Snippet Content | Description |
+|---------|-----------------|-------------|
+| mz-corousel | carousel | Default Carousel|
+| mz-corousel | carousel_slider | Carousel Slider|
+| mz-corousel | special_options | Special Options|
+
 ###-- collapsible
 
 | Snippet | Snippet Content | Description |
@@ -292,6 +305,7 @@ Remember to use **mz-** more the name of the element to invoke snippets.
 | mz-sidenav | dropdown_structure | Dropdown Structure Sidenav|
 | mz-sidenav | fixed_structure | Fixed Structure Sidenav|
 | mz-sidenav | fullscreen_structure | Fullscreen Structure Sidenav|
+| mz-sidenav | html_structure | New Sidenav|
 
 ###-- tabs
 
