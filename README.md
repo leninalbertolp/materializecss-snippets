@@ -5,7 +5,7 @@ V-1.0.1 (August 2016/09)
 - Updated CDN Links to 0.97.7
 - Added New Snippet for Horizontal Card
 - Added New Snippet for Carousel
-- added new snippet for sidenav
+- Added New Snippet for Sidenav
 - removed files for requesting addition to Control Package
 
 ##Introduction.
