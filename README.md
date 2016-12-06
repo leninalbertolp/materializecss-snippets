@@ -1,12 +1,22 @@
 # Materializecss Snippets for Sublime Text 2&3
-![GitHub release](https://img.shields.io/badge/release-1.0.1-green.svg) [![GitHub forks](https://img.shields.io/github/forks/leninalbertolp/materializecss-snippets.svg)](https://github.com/leninalbertolp/materializecss-snippets/network) [![GitHub stars](https://img.shields.io/github/stars/leninalbertolp/materializecss-snippets.svg)](https://github.com/leninalbertolp/materializecss-snippets/stargazers) [![GitHub issues](https://img.shields.io/github/issues/leninalbertolp/materializecss-snippets.svg)](https://github.com/leninalbertolp/materializecss-snippets/issues)
+![GitHub release](https://img.shields.io/badge/release-1.0.2-green.svg) [![GitHub forks](https://img.shields.io/github/forks/leninalbertolp/materializecss-snippets.svg)](https://github.com/leninalbertolp/materializecss-snippets/network) [![GitHub stars](https://img.shields.io/github/stars/leninalbertolp/materializecss-snippets.svg)](https://github.com/leninalbertolp/materializecss-snippets/stargazers) [![GitHub issues](https://img.shields.io/github/issues/leninalbertolp/materializecss-snippets.svg)](https://github.com/leninalbertolp/materializecss-snippets/issues)
 ##Changelog
+V-1.0.2 (December 2016/06)
+- Updated CDN Links to 0.97.8
+- Added New Snippet Tabs now supported in navbar (mz-navbar: with_tabs)
+- Bugs Fixed
+
 V-1.0.1 (August 2016/09)
 - Updated CDN Links to 0.97.7
 - Added New Snippet for Horizontal Card
 - Added New Snippet for Carousel
 - Added New Snippet for Sidenav
-- removed files for requesting addition to Package Control
+- removed files for requesting addition to Package Control ([more details here
+ ](https://github.com/wbond/package_control_channel/pull/5591))
+
+V-1.0.0 (May 2016/27)
+- Initial version
+- Application of adhesion to package control
 
 ##Introduction.
 first of all, Sorry for my horrible English, is not my native language. :flushed:
@@ -219,6 +229,7 @@ Remember to use **mz-** more the name of the element to invoke snippets.
 | mz-navbar | full_width_fixed | Navbar Fixed Full Width |
 | mz-navbar | width_centered | Width Centered Navbar|
 | mz-navbar | width_centered_fixed | Navbar Fixed Width Centered|
+| mz-navbar | with_tabs | NavBar with tabs|
 
 ###-- pagination
 

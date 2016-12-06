@@ -23,6 +23,14 @@
       </ul>
       <!-- mobile and tablet menu content -->
       <ul id="mobile-menu" class="side-nav">
+        <li>
+          <div class="userView">
+            <img class="background" src="http://lorempixel.com/output/abstract-q-c-640-480-10.jpg">
+            <a href="#!user"><img class="circle" src="http://lorempixel.com/output/people-q-c-640-480-9.jpg"></a>
+            <a href="#!name"><span class="white-text name">John Doe</span></a>
+            <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
+          </div>
+        </li>
         <li><a href="#!">item1</a></li>
         <li><a href="#!">item2</a></li>
         <li class="no-padding">
