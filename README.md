@@ -1,17 +1,29 @@
 # Materializecss Snippets for Sublime Text 2&3
-![GitHub release](https://img.shields.io/badge/release-1.0.2-green.svg) [![GitHub forks](https://img.shields.io/github/forks/leninalbertolp/materializecss-snippets.svg)](https://github.com/leninalbertolp/materializecss-snippets/network) [![GitHub stars](https://img.shields.io/github/stars/leninalbertolp/materializecss-snippets.svg)](https://github.com/leninalbertolp/materializecss-snippets/stargazers) [![GitHub issues](https://img.shields.io/github/issues/leninalbertolp/materializecss-snippets.svg)](https://github.com/leninalbertolp/materializecss-snippets/issues)
+![GitHub release](https://img.shields.io/badge/release-1.1.3-green.svg) [![GitHub forks](https://img.shields.io/github/forks/leninalbertolp/materializecss-snippets.svg)](https://github.com/leninalbertolp/materializecss-snippets/network) [![GitHub stars](https://img.shields.io/github/stars/leninalbertolp/materializecss-snippets.svg)](https://github.com/leninalbertolp/materializecss-snippets/stargazers) [![GitHub issues](https://img.shields.io/github/issues/leninalbertolp/materializecss-snippets.svg)](https://github.com/leninalbertolp/materializecss-snippets/issues)
 
 ##Changelog
+V-1.1.3 (April 2017/04)
+- Updated the link CDN for CSS, JS file to 0.98.2 and jQuery files to 3.2.1
+- Updated structure HTML template snippets cdn and local
+- Added New Snippet: FAB to Toolbar (mz-btn:fab-toolbar)
+- Added New Snippet: Swipeable Tabs (mz-tabs:swipeable)
+- Added New Snippet: Card with small Floating Action Button (mz-card:fab-small)
+- Added New Snippet: Card with large Floating Action Button (mz-card:fab-large)
+- Added New Snippet in javascript component: Feature Discovery (mz-featurediscovery:tap-target)
+- It rewrote the structure of snippets for better semantics in the work area (see table of contents)
+- Removed snippets that were not a block of code, such as: Helpers, Shadow, Parallax etc...
+- Bugs Fixed
+
 V-1.0.2 (December 2016/06)
 - Updated CDN Links to 0.97.8
-- Added New Snippet Tabs now supported in navbar (mz-navbar: with_tabs)
+- Added New Snippet: Tabs now supported in navbar (mz-navbar: with_tabs)
 - Bugs Fixed
 
 V-1.0.1 (August 2016/09)
 - Updated CDN Links to 0.97.7
-- Added New Snippet for Horizontal Card
-- Added New Snippet for Carousel
-- Added New Snippet for Sidenav
+- Added New Snippet: for Horizontal Card
+- Added New Snippet: for Carousel
+- Added New Snippet: for Sidenav
 - removed files for requesting addition to Package Control ([more details here
  ](https://github.com/wbond/package_control_channel/pull/5591))
 
@@ -52,276 +64,222 @@ To have the drop-down menu showing snippets more content like the following imag
 
 ![](http://i.imgur.com/tVGerJc.gif)
 
-##Table of Contents
+## Table of Contents
 
 Remember to use **mz-** more the name of the element to invoke snippets.
 
-##Template
-###-- template
-
+## Template
 | Snippet | Snippet Content | Description |
 |---------|-----------------|-------------|
-| mz-template | cnd | CDN Template |
-| mz-template | local | Local Template|
-| mz-template | grid_system | Grid|
+| mz-template: | cnd | Basic html structure using cdn files |
+| mz-template: | local | Basic html structure using local files |
+| mz-template: | grid | Basic grid structure |
 
-##CSS
-###-- helpers
-
+## CSS
+### mediacss
 | Snippet | Snippet Content | Description |
 |---------|-----------------|-------------|
-| mz-helpers | align-center | Align Center|
-| mz-helpers | align_left | Aling Left|
-| mz-helpers | aling_right | Align Right|
-| mz-helpers | float_left | Foat Left|
-| mz-helpers | float_right | Float Right|
-| mz-helpers | hide | Hidden for all Devices|
-| mz-helpers | hide_large | Hidden for Desktop Only|
-| mz-helpers | hide_med | Hidden for Tablet Only|
-| mz-helpers | hide_med_down | Hidden for Tablet and Below|
-| mz-helpers | hide_med_up | Hidden for Tablet and Above|
-| mz-helpers | hide-small | Hidden for Mobile Only|
-| mz-helpers | hoverable | Box Shadow|
-| mz-helpers | truncate | Truncate Text|
-| mz-helpers | valign-wrapper | Vertical Align|
+| mz-mediacss: | img-circular | Circular Image |
+| mz-mediacss: | img-responsive | Responsive Image |
+| mz-mediacss: | video-embeds | Embeds video |
+| mz-mediacss: | video-responsive | Responsive Video |
 
-###-- mediacss
-
+### table
 | Snippet | Snippet Content | Description |
 |---------|-----------------|-------------|
-| mz-mediacss | img_circular | Circular Images|
-| mz-mediacss | img_responsive | Responsive Images|
-| mz-mediacss | video | Responsive Videos|
-| mz-mediacss | video_embeds | Responsive Embeds|
+| mz-table: | bordered | Bordered Table |
+| mz-table: | centered | Centered Table |
+| mz-table: | default | Default Table |
+| mz-table: | highlight | Highlight Table |
+| mz-table: | responsive | Responsive Table |
+| mz-table: | striped | Striped Table |
 
-###-- shadow
-
+### typography
 | Snippet | Snippet Content | Description |
 |---------|-----------------|-------------|
-| mz-shadow | shadow_0 | Shadow x0|
-| mz-shadow | shadow_1 | Shadow x1|
-| mz-shadow | shadow_2 | Shadow x2|
-| mz-shadow | shadow_3 | Shadow x3|
-| mz-shadow | shadow_4 | Shadow x4|
-| mz-shadow | shadow_5 | Shadow x5|
+| mz-typography: | blockquote | Blockquote |
+| mz-typography: | flow-text | Responsive Text |
 
-###-- tablet
-
+## Components
+### badge
 | Snippet | Snippet Content | Description |
 |---------|-----------------|-------------|
-| mz-table | bordered | Bordered Table|
-| mz-table | centered | Centered Table|
-| mz-table | default | Borderless Table|
-| mz-table | highlight | Highlight Table|
-| mz-table | responsive | Responsive Table|
-| mz-table | striped | Striped Table|
+| mz-badge: | default | Default Badge |
+| mz-badge: | new | New Badge |
 
-###-- typography
-
+### breadcrumb
 | Snippet | Snippet Content | Description |
 |---------|-----------------|-------------|
-| mz-typography | blockquote | Blockquote|
-| mz-typography | flow_text | Responsive Text|
+| mz-breadcrumb: | breadcrumb | Breadcrumb|
 
-##Components
-###-- badges
-
+### buttons
 | Snippet | Snippet Content | Description |
 |---------|-----------------|-------------|
-| mz-badges | badges | Default Badges|
-| mz-badges | badges_new | Notification badges|
+| mz-btn: | default | Default Button|
+| mz-btn: | disabled | Disabled Button|
+| mz-btn: | fab-ct-h | Fixed action button click to toggle horizontal|
+| mz-btn: | fab-ct-v | Fixed action button click to toggle vertical|
+| mz-btn: | fab-h | Fixed action button horizontal|
+| mz-btn: | fab-toolbar | Fixed action button toolbar|
+| mz-btn: | fab-v | Fixed action button vertical|
+| mz-btn: | flat | Button Flat|
+| mz-btn: | flat-disabled | Button flat disabled |
+| mz-btn: | floating | Button Floating|
+| mz-btn: | floating-disabled | Button Floating Disabled|
+| mz-btn: | icon-left | Button with icon to the left |
+| mz-btn: | icon-right | Button with icon to the right|
+| mz-btn: | large | Large Button|
+| mz-btn: | large-disabled | Large Button Diasbled|
+| mz-btn: | large-icon-left | Large button with icon on the left|
+| mz-btn: | large-icon-right | Large button with icon on the right|
+| mz-btn: | submit | Submit Button|
+| mz-btn: | fab-toolbar | Fixed action button toolbar|
 
-###-- breadcrumbs
-
+### card
 | Snippet | Snippet Content | Description |
 |---------|-----------------|-------------|
-| mz-breadcrumb | breadcrumb | Breadcrumbs|
+| mz-card: | basic | Basic Card|
+| mz-card: | fab-large| Card with large Floating Action Button|
+| mz-card: | fab-small| Card with small Floating Action Button|
+| mz-card: | panel | Panel Card|
+| mz-card: | horizontal | Horinzontal Card|
+| mz-card: | image | Image Card|
+| mz-card: | image-lg | Image Card Large|
+| mz-card: | image-md | Image Card Medium|
+| mz-card: | image-sm | Image Card Small|
+| mz-card: | rao-default | Card reveal action option default|
+| mz-card: | rao-lg | Card reveal action option large|
+| mz-card: | rao-md | Card reveal action option medium|
+| mz-card: | rao-sm | Card reveal action option small|
+| mz-card: | reveal-default | Card reveal default|
+| mz-card: | reveal-lg | Card reveal large|
+| mz-card: | reveal-md | Card reveal medium|
+| mz-card: | reveal-sm | Card reveal small|
 
-###-- buttons
-
+### chips
 | Snippet | Snippet Content | Description |
 |---------|-----------------|-------------|
-| mz-buttons | default | Default Button|
-| mz-buttons | disabled | Disabled Button|
-| mz-buttons | fixed_action_H | Fixed Horizontal Action Button|
-| mz-buttons | fixed_action_V | Fixed Vertical Action Button|
-| mz-buttons | fixed_H | Fixed Horizontal Button|
-| mz-buttons | fixed_V | Fixed Vertical Button|
-| mz-buttons | flat | Flat Button|
-| mz-buttons | flat_disabled | Flat Disable Button|
-| mz-buttons | floating | Floating Button|
-| mz-buttons | floating_disabled | Floating Disabled Button|
-| mz-buttons | icon_L | Button With the Icon to the Left |
-| mz-buttons | icon_R | Button With the Icon to the Right|
-| mz-buttons | large | Large Button|
-| mz-buttons | large_disabled | Large Diasbled Button|
-| mz-buttons | large_icon_L | Large Button With the Icon to the Left|
-| mz-buttons | large_icon_R | Large Button With the Icon to the Right|
-| mz-buttons | submit | Submit Button|
+| mz-chips: | contact | Chip Contacts|
+| mz-chips: | tags | Chip Tags|
+| mz-chips: | tags-close | Chip tag with icon close|
 
-###-- cards
-
+### collections
 | Snippet | Snippet Content | Description |
 |---------|-----------------|-------------|
-| mz-cards | basic_card | Basic Card|
-| mz-cards | panel_card | Panel Card|
-| mz-cards | horizontal_card | Horinzontal Card|
-| mz-cards | image_card | Image Card|
-| mz-cards | image_card_lg | Large Image Card|
-| mz-cards | image_card_md | Medium Image Card|
-| mz-cards | image_card_sm | Small Image Card|
-| mz-cards | reveal_action_card | Reveal Action Card|
-| mz-cards | reveal_action_card_lg | Large Reveal Action Card|
-| mz-cards | reveal_action_card_md | Medium Reveal Action Card|
-| mz-cards | reveal_action_card_sm | Small Reveal Action Card|
-| mz-cards | reveal_card | Reveal Card|
-| mz-cards | reveal_card_lg | Large Reveal Card|
-| mz-cards | reveal_card_md | Medium Reveal Card|
-| mz-cards | reveal_card_sm | Small Reveal Card|
+| mz-collections: | avatar | Avatar Collection|
+| mz-collections: | basic | Basic Collection|
+| mz-collections: | dismissable-content | Dismissable Content collection|
+| mz-collections: | headers | headers collection|
+| mz-collections: | link | Link Collection|
+| mz-collections: | link-active | Link active collection|
+| mz-collections: | secondary-content | Secondary Content Collection|
 
-###-- chips
-
+### footer
 | Snippet | Snippet Content | Description |
 |---------|-----------------|-------------|
-| mz-chips | contacts | Contacts Chips|
-| mz-chips | tags | Tags Chips|
-| mz-chips | tags_closed | Tags chips With Close Icon|
+| mz-footer: | default | Footer Default|
 
-###-- collections
-
+### forms
 | Snippet | Snippet Content | Description |
 |---------|-----------------|-------------|
-| mz-collections | avatar | Avatar Content Collections|
-| mz-collections | basic | Basic Collections|
-| mz-collections | dismissable_content | Dismissable Content collections|
-| mz-collections | headers | headers collections|
-| mz-collections | link | Link Collections|
-| mz-collections | link_active | Collections Link Active |
-| mz-collections | secondary_content | Secondary Content Collections|
+| mz-forms: | contact | Contact Form|
 
-###-- footer
-
+### icons
 | Snippet | Snippet Content | Description |
 |---------|-----------------|-------------|
-| mz-footer | footer | Footer|
+| mz-icons: | default | Default Icon|
+| mz-icons: | lg-icon | Large Icon|
+| mz-icons: | md-icon | Medium Icon|
+| mz-icons: | sm-icon | Small Icon|
+| mz-icons: | tn-icon | Tiny Icon|
 
-###-- forms
-
+### navbar
 | Snippet | Snippet Content | Description |
 |---------|-----------------|-------------|
-| mz-forms | contact_form | Contact Form|
+| mz-navbar: | full_width | Menu full width|
+| mz-navbar: | full-width-fixed | Menu fixed full width|
+| mz-navbar: | width-centered | Menu width centered|
+| mz-navbar: | width-centered-fixed | Menu fixed width centered|
+| mz-navbar: | with-tabs | Menu with tabs|
 
-###-- icons
-
+### pagination
 | Snippet | Snippet Content | Description |
 |---------|-----------------|-------------|
-| mz-icon | default | Default Size Icon|
-| mz-icon | large | Large Size Icon|
-| mz-icon | medium | Medium Size Icon|
-| mz-icon | small | Small Size Icon|
-| mz-icon | tiny | Tiny Size Icon|
+| mz-pagination: | default | Pagination Default|
 
-###-- navbar
-
+### preloader
 | Snippet | Snippet Content | Description |
 |---------|-----------------|-------------|
-| mz-navbar | full_width | Full Width Navbar|
-| mz-navbar | full_width | Full Width Navbar|
-| mz-navbar | full_width_fixed | Navbar Fixed Full Width |
-| mz-navbar | width_centered | Width Centered Navbar|
-| mz-navbar | width_centered_fixed | Navbar Fixed Width Centered|
-| mz-navbar | with_tabs | NavBar with tabs|
+| mz-preloader: | circular-flashing-colors-lg | Preloader circular flashing colors big|
+| mz-preloader: | circular-flashing-colors-default | Preloader circular flashing colors default|
+| mz-preloader: | circular-flashing-colors-sm | Preloader circular flashing colors small|
+| mz-preloader: | color-circular-lg | Preloader color circular big|
+| mz-preloader: | color-circular-default | Preloader color circular default|
+| mz-preloader: | color-circular-sm | Preloader color circular small|
+| mz-preloader: | linear-determinate | Preloader linear determinate|
+| mz-preloader: | linear-indeterminate | Preloader linear indeterminate|
 
-###-- pagination
-
+## JavaScript
+### carousel
 | Snippet | Snippet Content | Description |
 |---------|-----------------|-------------|
-| mz-pagination | pagination | pagination|
+| mz-corousel: | default | Default Carousel|
+| mz-corousel: | full-width | Carousel full width|
+| mz-corousel: | special-options | Special options carousel|
 
-###-- preloader
-
+### collapsible
 | Snippet | Snippet Content | Description |
 |---------|-----------------|-------------|
-| mz-preloader | circular_colors_big | Circular Colors Big|
-| mz-preloader | circular_colors_default | Circular Colors Default|
-| mz-preloader | circular_colors_small | Circular Colors Small|
-| mz-preloader | circular_flashing_colors_big | Circular Flashing Colors Big|
-| mz-preloader | circular_flashing_colors_default | Circular Flashing Colors Default|
-| mz-preloader | circular_flashing_colors_small | Circular Flashing Colors small|
-| mz-preloader | linear_determinate | Linear Determinate|
-| mz-preloader | linear_indeterminate | Linear Indeterminate|
+| mz-collasible: | accordion | Collapsible accordion|
+| mz-collasible: | expandable | Collapsible expandable|
+| mz-collasible: | popout | Collapsible popout|
 
-##javascript
-###-- carousel
+### dialogs
 | Snippet | Snippet Content | Description |
 |---------|-----------------|-------------|
-| mz-corousel | carousel | Default Carousel|
-| mz-corousel | carousel_slider | Carousel Slider|
-| mz-corousel | special_options | Special Options|
+| mz-dialogs: | callback-toast | Callback Toast|
+| mz-dialogs: | rounded-toast | Rounded Toast|
+| mz-dialogs: | toast-default | Default Toast|
+| mz-dialogs: | tooltips-bottom | Tooltips Bottom|
+| mz-dialogs: | tooltips-left | Tooltips Left|
+| mz-dialogs: | tooltips-right | Tooltips Right|
+| mz-dialogs: | tooltips-top | Tooltips Top|
 
-###-- collapsible
-
+### dropdown
 | Snippet | Snippet Content | Description |
 |---------|-----------------|-------------|
-| mz-collasible | accordion | Default Accordion|
-| mz-collasible | expandable_accordion | Expandable Accordion|
-| mz-collasible | popout_accordion | Popout Accordion|
+| mz-dropdown: | dropdown | Dropdown Structure|
 
-###-- dialogs
-
+### featurediscovery
 | Snippet | Snippet Content | Description |
 |---------|-----------------|-------------|
-| mz-dialogs | callback_toast | Callback Toast|
-| mz-dialogs | rounded_toast | Rounded Toast|
-| mz-dialogs | toast | Default Toast|
-| mz-dialogs | tooltips_bottom | Tooltips Bottom|
-| mz-dialogs | tooltips_left | Tooltips Left|
-| mz-dialogs | tooltips_right | Tooltips Right|
-| mz-dialogs | tooltips_top | Tooltips Top|
+| mz-featurediscovery: | tap-target | Tap Target|
 
-###-- dropdown
-
+### mediajs
 | Snippet | Snippet Content | Description |
 |---------|-----------------|-------------|
-| mz-dropdown | dropdown | Dropdown|
+| mz-mediajs: | material-box | Material design lightbox|
+| mz-mediajs: | material-box-captions | Material design lightbox captions|
+| mz-mediajs: | slider | Material design slider|
+| mz-mediajs: | slider-fullscreen | Material design slider fullscreen|
 
-###-- mediajs
-
+### modals
 | Snippet | Snippet Content | Description |
 |---------|-----------------|-------------|
-| mz-mediajs | carousel | Carousel|
-| mz-mediajs | carousel_slider | Carousel Slider|
-| mz-mediajs | material_box | Material Box|
-| mz-mediajs | material_box_captions | Captions Material Box|
-| mz-mediajs | slider | Slider|
-| mz-mediajs | slider_fullscreen | Fullscreen Slider|
+| mz-modals: | bottom-sheet | Bottom Sheet Modal|
+| mz-modals: | default | Default Modal|
+| mz-modals: | fixed-footer| Fixed Footer Modal|
 
-###-- modals
-
+### sidenav
 | Snippet | Snippet Content | Description |
 |---------|-----------------|-------------|
-| mz-modals | bottom_sheet | Bottom Sheet Modal|
-| mz-modals | default | Default Modal|
-| mz-modals | fixed_footer| Fixed Footer Modal|
+| mz-sidenav: | dropdown-structure | Sidenav Dropdown|
+| mz-sidenav: | fixed-structure | Sidenav Fixed|
+| mz-sidenav: | fullscreen-structure | Sidenav Fullscreen|
+| mz-sidenav: | html-structure | Sidenav HTML Structure|
 
-###-- parallax
-
+### tabs
 | Snippet | Snippet Content | Description |
 |---------|-----------------|-------------|
-| mz-parallax | parallax | Parallax Content|
-
-###-- sidenav
-
-| Snippet | Snippet Content | Description |
-|---------|-----------------|-------------|
-| mz-sidenav | dropdown_structure | Dropdown Structure Sidenav|
-| mz-sidenav | fixed_structure | Fixed Structure Sidenav|
-| mz-sidenav | fullscreen_structure | Fullscreen Structure Sidenav|
-| mz-sidenav | html_structure | New Sidenav|
-
-###-- tabs
-
-| Snippet | Snippet Content | Description |
-|---------|-----------------|-------------|
-| mz-tabs | tabs | Tabs|
-
+| mz-tabs: | default | Default Tab|
+| mz-tabs: | swipeable | Swipeable tab|

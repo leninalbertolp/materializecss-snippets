@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<video class="responsive-video" controls>
+	<source src="" type=""/>
+</video>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mz-mediacss:video-responsive</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+  <description>Responsive video</description>
+</snippet>

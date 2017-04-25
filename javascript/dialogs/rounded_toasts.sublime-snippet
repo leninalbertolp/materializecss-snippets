@@ -1,9 +1,0 @@
-<snippet>
-  <content><![CDATA[
-<a class="btn" onclick="Materialize.toast('I am a toast', 4000, 'rounded')">Toast!</a>
-]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>mz-dialogs</tabTrigger>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <!-- <scope>source.python</scope> -->
-</snippet>

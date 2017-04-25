@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+<i class="material-icons small">add</i>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>mz-icons:sm-icon</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html</scope>
+  <description>Small icon</description>
+</snippet>

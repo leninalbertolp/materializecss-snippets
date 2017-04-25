@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<a href="#" class="waves-effect waves-light btn"><i class="material-icons right">cloud</i>Button</a>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mz-btn:icon-right</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+  <description>Button with icon to the right</description>
+</snippet>

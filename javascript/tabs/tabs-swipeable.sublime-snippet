@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+<ul id="tabs-swipe-demo" class="tabs">
+  <li class="tab col s3"><a href="#test-swipe-1">Test 1</a></li>
+  <li class="tab col s3"><a class="active" href="#test-swipe-2">Test 2</a></li>
+  <li class="tab col s3"><a href="#test-swipe-3">Test 3</a></li>
+</ul>
+<div id="test-swipe-1" class="col s12 blue"><p class="white-text">This is the content of the test 1: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate obcaecati doloribus sint numquam similique eaque, assumenda possimus mollitia? Asperiores qui iusto recusandae distinctio cumque assumenda praesentium aspernatur modi quod id!</p></div>
+<div id="test-swipe-2" class="col s12 red"><p class="white-text">This is the content of the test 2: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur nihil molestiae qui asperiores pariatur adipisci sequi quaerat fugit voluptatem debitis. Accusamus provident temporibus velit labore eum magnam id, natus doloribus.</p></div>
+<div id="test-swipe-3" class="col s12 green"><p class="white-text">This is the content of the test 3: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem hic non minus maxime, sunt atque nostrum quod architecto voluptatum eos aliquid fugit deleniti quasi, dolor delectus numquam quisquam totam mollitia.</p></div>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>mz-tabs:swipeable</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html</scope>
+  <description>Swipeable tab</description>
+</snippet>

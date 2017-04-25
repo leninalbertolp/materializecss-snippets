@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+<ul class="collection">
+	<li class="collection-item avatar">
+		<img src="" alt="" class="circle">
+		<span class="title">Title</span>
+		<p>First Line <br>
+			Second Line
+		</p>
+		<a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+	</li>
+	<li class="collection-item avatar">
+ 		<i class="material-icons circle">folder</i>
+		<span class="title">Title</span>
+		<p>First Line <br>
+			Second Line
+		</p>
+		<a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+	</li>
+</ul>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mz-collections:avatar</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+  <description>Avatar collection</description>
+</snippet>

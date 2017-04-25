@@ -20,7 +20,8 @@
 </form>
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>mz-forms</tabTrigger>
+  <tabTrigger>mz-forms:contac</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <!-- <scope>source.python</scope> -->
+  <scope>text.html</scope>
+  <description>Contac form</description>
 </snippet>

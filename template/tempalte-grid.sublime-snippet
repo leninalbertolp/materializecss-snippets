@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+<div class="container">
+  <div class="row">
+    <div class="col s12 m4 l6">
+      <!-- Your content here -->
+    </div>
+  </div>
+</div>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>mz-template:grid</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html</scope>
+  <description>Basic grid structure</description>
+</snippet>

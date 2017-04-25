@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<ul class="collection with-header">
+	<li class="collection-header"><h4>First Names</h4></li>
+	<li class="collection-item">Alvin</li>
+	<li class="collection-item">Alvin</li>
+	<li class="collection-item">Alvin</li>
+</ul>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mz-collections:headers</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+  <description>Headers collection</description>
+</snippet>

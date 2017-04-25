@@ -1,10 +1,10 @@
 <snippet>
   <content><![CDATA[
 <!-- Modal Trigger -->
-<a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal Fixed Footer</a>
+<a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal Bottom Sheet</a>
 
 <!-- Modal Structure -->
-<div id="modal1" class="modal modal-fixed-footer">
+<div id="modal1" class="modal bottom-sheet">
   <div class="modal-content">
     <h4>Modal Header</h4>
     <p>A bunch of text</p>
@@ -16,8 +16,8 @@
 </div>
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>mz-modals:fixed-footer</tabTrigger>
+  <tabTrigger>mz-modals:bottom-sheet</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>text.html</scope>
-  <description>Fixed footer modal</description>
+  <description>Bottom sheet modal</description>
 </snippet>

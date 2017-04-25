@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+<div class="fixed-action-btn">
+  <a id="menu" class="waves-effect waves-light btn-large btn-floating cyan" onclick="\$('.tap-target').tapTarget('open')"><i class="material-icons">menu</i></a>
+</div>
+<!-- Tap Target Structure -->
+<div class="tap-target cyan" data-activates="menu">
+  <div class="tap-target-content white-text">
+    <h5>I am here</h5>
+    <p>Provide value and encourage return visits by introducing users to new features and functionality at contextually relevant moments.</p>
+  </div>
+</div>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>mz-featurediscovery:tap-target</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html</scope>
+  <description>Tap Target</description>
+</snippet>
