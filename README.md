@@ -1,5 +1,5 @@
 # Materializecss Snippets for Sublime Text 2&3
-![GitHub release](https://img.shields.io/badge/release-1.1.3-green.svg) [![GitHub forks](https://img.shields.io/github/forks/leninalbertolp/materializecss-snippets.svg)](https://github.com/leninalbertolp/materializecss-snippets/network) [![GitHub stars](https://img.shields.io/github/stars/leninalbertolp/materializecss-snippets.svg)](https://github.com/leninalbertolp/materializecss-snippets/stargazers) [![GitHub issues](https://img.shields.io/github/issues/leninalbertolp/materializecss-snippets.svg)](https://github.com/leninalbertolp/materializecss-snippets/issues)
+![GitHub release](https://img.shields.io/badge/release-1.2.3-green.svg) [![GitHub forks](https://img.shields.io/github/forks/leninalbertolp/materializecss-snippets.svg)](https://github.com/leninalbertolp/materializecss-snippets/network) [![GitHub stars](https://img.shields.io/github/stars/leninalbertolp/materializecss-snippets.svg)](https://github.com/leninalbertolp/materializecss-snippets/stargazers) [![GitHub issues](https://img.shields.io/github/issues/leninalbertolp/materializecss-snippets.svg)](https://github.com/leninalbertolp/materializecss-snippets/issues)
 
 ## Changelog
 V-1.2.3 (September 2017/09)
