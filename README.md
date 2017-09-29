@@ -1,7 +1,10 @@
 # Materializecss Snippets for Sublime Text 2&3
 ![GitHub release](https://img.shields.io/badge/release-1.1.3-green.svg) [![GitHub forks](https://img.shields.io/github/forks/leninalbertolp/materializecss-snippets.svg)](https://github.com/leninalbertolp/materializecss-snippets/network) [![GitHub stars](https://img.shields.io/github/stars/leninalbertolp/materializecss-snippets.svg)](https://github.com/leninalbertolp/materializecss-snippets/stargazers) [![GitHub issues](https://img.shields.io/github/issues/leninalbertolp/materializecss-snippets.svg)](https://github.com/leninalbertolp/materializecss-snippets/issues)
 
-##Changelog
+## Changelog
+V-1.2.3 (September 2017/09)
+- Updated the link CDN for CSS, JS file to 0.100.2
+
 V-1.1.3 (April 2017/04)
 - Updated the link CDN for CSS, JS file to 0.98.2 and jQuery files to 3.2.1
 - Updated structure HTML template snippets cdn and local
@@ -31,16 +34,16 @@ V-1.0.0 (May 2016/27)
 - Initial version
 - Application of adhesion to package control
 
-##Introduction.
+## Introduction.
 first of all, Sorry for my horrible English, is not my native language. :flushed:
 
-Repository with snnipets of the framework Materilizecss to Sublime Text 2&3, which will help you streamline your workflow, and make time for a cup of coffee :coffee:
+Repository with snippets of the framework Materilizecss to Sublime Text 2&3, which will help you streamline your workflow, and make time for a cup of coffee :coffee:
 
-For now, you can only install this reposiorio downloading snippets, I'm working to take it as a plugin and upload to Package Control.
+For now, you can only install this repository downloading snippets, I'm working to take it as a plugin and upload to Package Control.
 
-##Intallation.
+## Installation.
 
-###PackageControl Installation (Not available, sorry there is already a similar plugin Package Control). :cry:
+### PackageControl Installation (Not available, sorry there is already a similar plugin Package Control). :cry:
 
 You can install this awesome plugin through the [Package Control](https://packagecontrol.io/installation).
 
@@ -48,19 +51,19 @@ You can install this awesome plugin through the [Package Control](https://packag
 
 2. Type *"install package"* and press enter. Then search for *"Materializecss snippets"*
 
-###Manual Installation
+### Manual Installation
 
 1. Download this repository, unpack the .zip and rename the folder materializecss-snippets-master to materializecss-snippets
 
 2. Open Sublime Text and go to Preferences> Browse Packages ...> User, and move the materializecss-Snippets folder to this route, that's all, enjoy.
 
-##How to use.
+## How to use.
 
 To invoke snippets must type **mz-** more the element name. Example: **mz-table**.
 
 ![](http://i.imgur.com/yXBfI25.jpg)
 
-To have the drop-down menu showing snippets more content like the following image, you must install the plugin [SublimeCodeIntel from PackageControl](https://packagecontrol.io/packages/SublimeCodeIntel), what contratio will have to manually search each snnipet.
+To have the drop-down menu showing snippets more content like the following image, you must install the plugin [SublimeCodeIntel from PackageControl](https://packagecontrol.io/packages/SublimeCodeIntel), what contratio will have to manually search each snippet.
 
 ![](http://i.imgur.com/tVGerJc.gif)
 
